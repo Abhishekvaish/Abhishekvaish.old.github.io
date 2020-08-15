@@ -1,0 +1,188 @@
+body{
+/*	background: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background: #0F2027;  
+	background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+	background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
+	font-family: cursive;  
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
+}
+.sofia {
+	font-family: 'Sofia';
+}
+.georgia{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.josefin{
+    font-family: 'Josefin Sans',
+    sans-serif;
+}
+main{
+	flex: 1 0 auto;
+}
+header{
+	background-color: #0007;
+}
+nav li.active{
+	border-bottom: 1px solid white;
+}
+nav li:hover{
+	border-bottom: 1px solid white;	
+}
+.brand-logo{
+	margin-left: 10px;
+}
+.home{
+	min-height: 90vh; 
+	height: auto;
+}
+.home h1{
+	margin-top: 10%;
+	animation-name: fadeInUp;
+	animation-duration: 1s;
+	font-size: 10vh;
+	font-weight: bold;
+}
+.home p{
+	font-size: 20px;
+	animation-name: fadeInUp;
+	animation-duration: 0.5s;
+}
+
+#projects {
+	margin-top: 10px;
+}
+#projects .card{
+	animation-name: jackInTheBox;
+	animation-duration: 2s;
+	transition: 0.3s ease transform;
+}
+#projects .card:hover{
+	transform: scale(1.07);
+}
+
+
+
+
+#education {
+	margin-top: 30px;
+}
+#education .card-panel img {
+	height: 150px;
+	width:  150px;
+}
+#education .card-panel {
+	border-radius: 30px;
+	transition: 0.3s ease transform;
+}
+#education .card-panel a{
+	color: #000;
+}
+#education .card-panel:hover a{
+	color: #fff;
+}
+#education .card-panel:hover{
+	transform: scale(1.06);
+	color: #fff;
+}
+.slideInLeft {
+	animation-name: slideInLeft;
+	animation-duration: 1s;
+}
+.slideInRight {
+	animation-name: slideInRight;
+	animation-duration: 1s;
+}
+
+
+#contact {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+#contact .card-panel{
+	border-radius: 30px;
+}
+#contact .icons i{
+	padding: 20px;
+	border-radius: 50%;
+	color: #000;
+	transition: background-color .7s ease ;
+}
+#contact .icons i:hover{
+	color: #fff;
+	background-color: #000;
+}
+
+#contact .icons .mail{
+	opacity:0;
+	animation-name: fadeInUp;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+#contact .icons .github{
+	opacity:0;
+	animation-name: fadeInUp;
+	animation-duration: 1s;
+	animation-delay: 0.4s;
+	animation-fill-mode: forwards;
+}
+#contact .icons .twitter{
+	opacity:0;
+	animation-name: fadeInUp;
+	animation-delay: 0.8s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+#contact .icons .linkedIn{
+	opacity:0;
+	animation-name: fadeInUp;
+	animation-delay: 1.2s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+
+.interest {
+	margin-top: 5%;
+}
+/*.interest h2 {
+	animation-name: bounce;
+	animation-duration: 1s;
+}*/
+.interest .card-panel{
+	background-color: #ef9a9a;
+	border-radius: 20px;
+	animation-name: zoomIn;
+	animation-duration: 1s;
+}
+.interest i{
+	font-size: 20vh;
+}
+.interest img{
+	height: 20vh;
+}
+
+
+
+.tools {
+	margin-top: 5%;
+}
+.tools .card-panel{
+	background: transparent;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 30px;
+}
+.tools .card-panel:hover{
+	background: #fff;
+	border-color: #000;
+	transform: scale(1.05);
+}
+.tools  img{
+	height: 150px;
+/*	width: 150px;*/
+}

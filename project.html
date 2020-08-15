@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Import Google Icons-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--Import materialize.css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!-- Import Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+<!-- Favicons -->
+<link href="images/profile.png" rel="icon">
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<title>PortFolio</title>
+<body>
+
+<header>
+    <nav class="transparent">
+        <div class="navbar-wrapper">
+            <a href="./home.html" class="brand-logo">Profile</a>
+            <a  href="#" class="button-collapse" data-activates="sideNavBar">
+                <i class="material-icons white-text">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="./home.html">Home</a></li>
+                <li class="active"><a href="./project.html">Projects</a></li>
+                <li><a href="./education.html">Education</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About Me</a></li>
+            </ul>
+            <ul class="side-nav" id="sideNavBar">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="images/black.jpg">
+                        </div>
+                        <a href=""><img src="images/profile.png" class="circle"></a>
+                        <span class="name">Abhishek Vaish</span>
+                        <span class="email">abhishek953566936222@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                     <a href="./home.html"><i class="material-icons black-text">home</i>Home</a>
+                </li>
+                <li>
+                    <a href="./project.html"><i class="material-icons black-text">apps</i>Projects</a>
+                </li>
+                <li>
+                    <a href="./education.html"><i class="material-icons black-text">book</i>Education</a>
+                </li>
+                <li>
+                    <a href="./contact.html"><i class="material-icons black-text">contacts</i>Contact</a>
+                </li>
+                <li>
+                    <a href="./about.html"><i class="material-icons black-text">exit_to_app</i>About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main id="projects">
+	<div class="row">
+		<div class="col l4 m6 s12">
+			<div class="card ">
+				<div class="card-content">
+					<a href="https://stormy-shore-76327.herokuapp.com/" target="blank">
+						<h4>Cragads<i class="material-icons ">call_made</i></h4>
+					</a>
+					A website For Scraping Craglist
+					made Using Django FrameWork.
+					<br/><br/>
+					<div class="chip blue white-text">Python</div>
+					<div class="chip teal white-text">HTML</div>
+					<div class="chip pink accent-4 white-text">CSS</div>
+					<div class="chip green white-text">Django</div>
+				</div>
+				<div class="card-action red">
+					<a href="https://github.com/Abhishekvaish/cragads" target="blank" class="white-text">View Source Code</a>
+				</div>
+			</div>	
+		</div>
+		<div class="col l4 m6 s12">
+			<div class="card">
+				<div class="card-content">
+						<h4>Socket</h4>
+					An Android application for sharing files Using Socket Programming in Java.
+					<br/><br/>
+					<div class="chip orange darken-4 white-text">Java</div>
+					<div class="chip teal white-text">Android</div>
+					<div class="chip pink accent-4 white-text">Sockets</div>
+					<div class="chip green white-text">XML</div>
+				</div>
+				<div class="card-action brown">
+					<a href="https://github.com/Abhishekvaish/Socket" target="blank" class="white-text" >View Source Code</a>
+				</div>
+			</div>	
+		</div>
+		<div class="col l4 m6 s12">
+			<div class="card">
+				<div class="card-content">
+					<h4>To-Do-App</h4>
+					A Simple Todo Website Made Using NodeJS, Express, MongoDB
+					<br/><br/>
+					<div class="chip brown darken-4 white-text">Node</div>
+					<div class="chip blue-grey darken-2 white-text">Express</div>
+					<div class="chip pink accent-4 white-text">MongoDB</div>
+					<div class="chip green white-text">EJS</div>
+				</div>
+				<div class="card-action teal accent-4">
+					<a href="https://github.com/Abhishekvaish/To-do-App" target="blank" class="white-text">View Source Code</a>
+				</div>
+			</div>	
+		</div>
+		<div class="col l4 m6 s12">
+			<div class="card">
+				<div class="card-content">
+					<h4>Twitter Sentiments</h4>
+					A Django Website For Sentiment Analysis on tweets.
+					<br/><br/>
+					<div class="chip brown white-text">Matplotlib</div>
+					<div class="chip blue white-text">Python</div>
+					<div class="chip teal white-text">HTML</div>
+					<div class="chip green white-text">Django</div>
+				</div>
+				<div class="card-action cyan darken-4">
+					<a href="https://github.com/Abhishekvaish/Twitter_Sentiments" target="blank" class="white-text">View Source Code</a>
+				</div>
+			</div>	
+		</div>
+		<div class="col l4 m6 s12">
+			<div class="card">
+				<div class="card-content">
+						<h4>News-Application</h4>
+					An Android Application To get latest News Using RSS feed In Java.
+					<br/><br/>
+					<div class="chip green darken-4 white-text">Java</div>
+					<div class="chip teal white-text">Android</div>
+					<div class="chip pink accent-4 white-text">RSS</div>
+				</div>
+				<div class="card-action blue darken-4">
+					<a href="https://github.com/Abhishekvaish/News-Application" target="blank" class="white-text">View Source Code</a>
+				</div>
+			</div>	
+		</div>
+		<div class="col l4 m6 s12">
+			<div class="card">
+				<div class="card-content">
+					<h4>Word Predictor</h4>
+					A CLI for predicting word using tree data structure In C.
+					<br/><br/>
+					<div class="chip red darken-4 white-text">C Programming</div>
+					<div class="chip teal white-text">Data Structure</div>
+				</div>
+				<div class="card-action red lighten-1  ">
+					<a href="https://github.com/Abhishekvaish/Notes-Applcation" target="blank" class="white-text" >View Source Code</a>
+				</div>
+			</div>	
+		</div>
+		<div class="col l4 m6 s12">
+			<div class="card">
+				<div class="card-content">
+						<h4>Notes-Application</h4>
+					An Offline Android Application To Store notes In Java.
+					<br/><br/>
+					<div class="chip green darken-4 white-text">Java</div>
+					<div class="chip teal white-text">Android</div>
+				</div>
+				<div class="card-action green">
+					<a href="https://github.com/Abhishekvaish/Notes-Applcation" target="blank" class="white-text">View Source Code</a>
+				</div>
+			</div>	
+		</div>
+		<div class="col l4 m6 s12">
+			<div class="card">
+				<div class="card-content">
+						<h4>Blog</h4>
+					A Blog Website Made Using Django FrameWork and Materialize CSS
+					<br/><br/>
+					<div class="chip blue white-text">Python</div>
+					<div class="chip teal white-text">HTML</div>
+					<div class="chip pink accent-4 white-text">CSS</div>
+					<div class="chip green white-text">Django</div>
+				</div>
+				<div class="card-action orange darken-4 ">
+					<a href="https://github.com/Abhishekvaish/blogDjango" target="blank" class="white-text">View Source Code</a>
+				</div>
+			</div>	
+		</div>
+
+	</div>
+</main>
+
+<footer class="page-footer black " >
+   <div class="container">
+            <p class="center-align">
+                This Website in made with 🧡 by Abhishek Vaish.
+                View the Source Code on <a href="">Github</a>   
+            </p>
+            <p class="center-align">
+                All right Reserved &copy; 2020 Copyright           
+            </p>
+    </div>
+</footer>
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
